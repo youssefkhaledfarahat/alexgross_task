@@ -1,0 +1,136 @@
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameTitle {
+  margin-bottom: 1.3vw;
+  text-align: center;
+  font: normal normal bold 1.3vw/1.56 Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.namePrompt {
+  padding: 2%;
+  text-align: center;
+  font: normal normal bold 3.125vw/3.84vw Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.nameInput {
+  opacity: 1;
+  padding-bottom: 10%;
+}
+.next__icon {
+  margin-left: 1.62vw;
+}
+.next,
+.next:disabled {
+  color: black;
+  padding: 1.36vw 3.71vw 1.36vw 5.66vw;
+  background: #ffffff;
+  border: 1px solid #707070;
+  opacity: 1;
+  font: normal normal bold 1.3vw/2.08vw Inter;
+  text-transform: uppercase;
+  margin-bottom: 1.43vw;
+}
+.next:hover,
+.next:focus,
+.next:active {
+  background: #ffffff !important;
+  color: black !important;
+  border-color: #707070 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.back:hover,
+.back:focus,
+.back:active {
+  background: transparent !important;
+  border-color: #707070 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.back {
+  color: white;
+  background: black 0% 0% no-repeat padding-box;
+  text-align: left;
+  font: normal normal bold 0.97vw/1.95vw Inter;
+  letter-spacing: 0.019vw;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+.back:hover {
+  background: transparent;
+  color: white;
+  border-color: #707070;
+}
+
+.back__icon {
+  margin-right: 0.26vw;
+}
+
+.form__group {
+  position: relative;
+  padding: 0.97vw 0 0;
+  margin-top: 0.65vw;
+  width: 41.73vw;
+  margin-bottom: 83px;
+}
+
+.form__field {
+  width: 100%;
+  border: 0;
+  border-bottom: 0.065vw solid #6a6a6a;
+  outline: 0;
+  font-size: 1.04vw;
+  color: #212121;
+  padding: 0.455vw 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  text-align: left;
+  font: normal normal normal 1.56vw/1.89vw Inter;
+  letter-spacing: 0px;
+  color: #808080;
+  opacity: 1;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.04vw;
+  cursor: text;
+  top: 1.3vw;
+}
+
+label,
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: flex;
+  transition: 0.2s;
+  font-size: 0.781vw;
+  color: #9b9b9b;
+}
+
+.form__field:focus ~ .form__label {
+  color: #6a6a6a;
+}
+
+.form__field:focus {
+  padding-bottom: 0.39vw;
+  border-bottom: 0.13vw solid #6a6a6a;
+}

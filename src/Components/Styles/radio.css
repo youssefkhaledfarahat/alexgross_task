@@ -1,0 +1,22 @@
+.radio {
+  margin-right: 2.27vw;
+  margin-left: 2.27vw;
+  display: flex;
+}
+
+.radioLabel {
+  margin-left: 0.78vw;
+  text-align: left;
+  font: normal normal normal 1.56vw/2.08vw Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.radioCircle {
+  color: #6a6a6a;
+}
+
+.radioCheck {
+  fill: white;
+}
